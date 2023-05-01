@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Projeto de cadastro de hotéis para o sprint 01 da pós graduação em Engenharia de software
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto destina-se ao curso de pós-graduação 2023 
 
-## Available Scripts
+## Módulo de Frontend - ReactJS
 
-In the project directory, you can run:
+Para executar este projeto, primeiramente coloque em execução o módulo de backend seguindo as intruções deste tutorial https://github.com/ricardocduarte/pucrj-postgrad-01-backend
 
-### `npm start`
+### `Requisitos de software`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+    <li>Desenvolvimento de uma SPA (single page application) criativa e interativa.</li>
+    <li>Que na tela sejam apresentados itens em listas (por exemplo, lista de usuários ou livros).</li>
+    <li>Que, ao longo do código, seja feita a chamada a todas as rotas implementadas pela API.</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Passos para instalação`
 
-### `npm test`
+<ul>
+    <li>Faça o download do código ou clone em sua máquina local</li>
+    <li>Dentro da pasta do projeto digite <b>npm i</b> para instalar todos os módulos necessários</li>
+    <li>Digite <b>npm start</b> para iniciar o servidor web local e visualizar o projeto</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Módulo de Frontend - ReactJS
+Certifique-se que a url da api está informada corretamentamente neste módulo, através da constante <b>BASE_URL</b> contida no arquivo https://github.com/ricardocduarte/pucrj-postgrad-01-frontend/blob/master/src/components/Hotels/listAll.js 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
