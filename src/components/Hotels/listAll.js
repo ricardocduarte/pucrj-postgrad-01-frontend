@@ -46,7 +46,7 @@ const Tabela = () => {
                 //GetllData()                  
             })    
     }
-    const RemoveData=({id})=>{        
+    const RemoveData=(id)=>{        
         axios.delete(BASE_URL + "/hotel/"+id)                
     }
     useEffect(() => {    
@@ -76,7 +76,7 @@ const Tabela = () => {
        if (!res) {
          return;
        }
-       RemoveData(row)
+       RemoveData(row.getValue('id'))
       tableData.splice(row.index, 1);
       setTableData([...tableData]);
     },
